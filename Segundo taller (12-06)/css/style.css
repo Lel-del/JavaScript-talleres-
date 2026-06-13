@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar {
+    position: static;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 5%;
+    background-color: #000000;
+    border-bottom: 4px solid #ffffff;
+    z-index: 10;
+}
+
+.logo {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ffff00;
+}
+
+.hero {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+    background-color: #000000;
+    border-bottom: 4px solid #ffffff;
+    color: white;
+}
+
+.hero-content {
+    max-width: 720px;
+}
+
+.eyebrow {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffff00;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0 0 1rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.9rem 1.2rem;
+    background-color: #000000;
+    color: #ff8000;
+    text-decoration: none;
+    border: 3px solid #ff8000;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #ff8000;
+    color: #000000;
+}
+
+.container {
+    width: 92%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #ffffff;
+}
